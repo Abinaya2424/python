@@ -1,0 +1,6 @@
+a=int(input("enter value:"))
+print(a)
+b=int(input("\n enter value:"))
+print(b)
+max= a if a>b else b
+print("\n the max of two numbers",max)
