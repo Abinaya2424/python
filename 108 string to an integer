@@ -1,0 +1,7 @@
+a='10'
+print(type(a))
+conv=int(a)
+print(type(conv))
+conv=conv+10
+print(conv)
+print(type(conv))
