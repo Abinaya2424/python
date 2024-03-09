@@ -1,0 +1,8 @@
+def newton_raphson_square_root(number,epsilon=le-6):
+  guess=number/2
+  while abs(guess*guess-number)>epsilon:
+    guess=(guess+number/guess)/2
+  return guess
+number=float(input("enter number"))
+result=newton_raphson_square_root(number)
+print("the square root of {number} is approximately{result}")
