@@ -1,0 +1,4 @@
+str1="hey"
+str2="u"
+str3=str1+str2
+print("the new string is:",str3)
