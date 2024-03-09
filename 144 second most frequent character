@@ -1,0 +1,5 @@
+stri = "Welcome to Datacurators.tech"
+counts={}
+for i in stri:
+    counts[i]=stri.count(i)
+print (counts
