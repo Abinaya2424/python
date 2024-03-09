@@ -1,0 +1,6 @@
+a=int(input("enter num"))
+print(a)
+if a%3==0 and a%5==0:
+  print(a,"divisible")
+else:
+  print(a,"not divisible")
